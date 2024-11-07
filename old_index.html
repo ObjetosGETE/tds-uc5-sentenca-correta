@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/dragula.min.css">
+</head>
+<body>
+    <div class="preload">
+        <img src="assets/img/cat-sleeping.jpg">
+        <img src="assets/img/cooking.jpg">
+        <img src="assets/img/running.jpg">
+        <img src="assets/img/singing.jpg">
+        <img src="assets/img/working.jpg">
+    </div>
+
+    <div class="obj-sentenca-wrapper">
+        <div class="tela tela-inicial">
+            <div class="msg">
+                <button class="start-btn">Start</button>
+            </div>
+        </div>
+        <div class="tela">
+            <figure>
+                <img src="assets/img/singing.jpg" alt="girl singing a song holding a microphone">
+                <figcaption>Figure 17: source: < https://br.freepik.com/fotos-gratis/retrato-expressivo-jovem-cantando_13467606.htm#query=cantando&position=1&from_view=search&track=sph&uuid=64075cfe-d944-4ce6-aad6-1a052be67033> accessed on: 23/12/23 </figcaption>
+            </figure>
+            <div class="slots">
+                <div class="slot-1" id="slot-1"></div>
+                <div class="slot-2" id="slot-2"></div>
+                <div class="slot-3" id="slot-3"></div>
+            </div>
+            <div class="options">
+                <button data-target="slot-1">He</button>
+                <button data-target="slot-1">She</button>
+                <button data-target="slot-1">They</button>
+                <button>Am</button>
+                <button>Is</button>
+                <button>Are</button>
+                <button>Writing</button>
+                <button>Singing</button>
+                <button>Dancing</button>
+            </div>
+        </div>
+        <!-- <div class="tela">
+            <figure>
+                <img src="assets/img/singing.jpg" alt="girl singing a song holding a microphone">
+                <figcaption>Figure 17: source: < https://br.freepik.com/fotos-gratis/retrato-expressivo-jovem-cantando_13467606.htm#query=cantando&position=1&from_view=search&track=sph&uuid=64075cfe-d944-4ce6-aad6-1a052be67033> accessed on: 23/12/23 </figcaption>
+            </figure>
+            <div class="slots">
+                <div class="slot-1"></div>
+                <div class="slot-2"></div>
+                <div class="slot-3"></div>
+            </div>
+            <div class="options">
+                <div data-target="slot-1">He</div>
+                <button>She</button>
+                <button>They</button>
+                <button>Am</button>
+                <button>Is</button>
+                <button>Are</button>
+                <button>Writing</button>
+                <button>Singing</button>
+                <button>Dancing</button>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/dragula.min.js"></script>
+    <script src="assets/js/game-custom.js"></script>
+</body>
+</html>
